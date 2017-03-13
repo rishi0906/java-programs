@@ -7,11 +7,11 @@ int a=10;
 		System.out.println("integer1111 is " +a);
 	}
   codepractice2(){
-	System.out.println("hello");
+	System.out.println("hello-constructor");
 	System.out.println("integer2222 is " +a);
 }
   codepractice2(int b){
-	System.out.println("argument1");
+	System.out.println("argument1 constructor");
 	this.a =b;
 	
 }
